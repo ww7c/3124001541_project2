@@ -10,7 +10,6 @@
 using namespace std;
 int main(int argc, char* argv[])
 {
-	cout << argv[2] << endl;
 	// 生成题目
 	// Myapp.exe -n 10 -r 10
 	if (argc >= 2 && std::string(argv[1]) == "-n")
